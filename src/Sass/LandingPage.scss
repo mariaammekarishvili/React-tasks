@@ -1,0 +1,222 @@
+$titleColor : #2F2E41;
+$titleSize : 86px;
+$titleHeight : 88px;
+$ParpleBG : #6C63FF;
+$textColor : #9893A3;
+$tableBg : #ECEBFF;
+$footerBg :  rgba(236, 235, 255, 0.6);
+
+.header{
+  height: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.page{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.header__icon{
+  display: flex;
+  align-items: center;
+}
+.header__item--box{
+  display: flex;
+  align-items: center;
+}
+.header__item{
+  color: $textColor ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 10px 0;
+  margin: 0 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.header__item--active{
+  border-bottom: $ParpleBG 4px solid;
+  color: $titleColor;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.header__action--buttons>button{
+  width: auto;
+  border: none;
+  min-height: 51px;
+  padding: 0 30px;
+  margin: 0 8px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral[100] */
+
+  color: #FFFFFF;
+  background: $ParpleBG;
+}
+.header__action--buttons>.l-i{
+  border: solid 1px $ParpleBG;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: $ParpleBG;
+  background-color: #FFFF;
+}
+.main{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.info--box{
+  display: flex;
+  margin:  80px 0;
+}
+.info--box>div{
+  max-width: 489px;
+}
+.info__title{
+  color: $titleColor;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 86px;
+  line-height: 88px;
+  /* or 102% */
+
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+.info__text{
+  color: $textColor;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+.info__button{
+  min-width: 140px;
+  min-height: 51px;
+  background: $ParpleBG;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutral[100] */
+
+  color: #FFFFFF;
+}
+.info--box:first-child>svg{
+  margin-left: 49px;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+
+.header *{
+  cursor: pointer;
+}
+.calculator__main>h1{
+  color: $ParpleBG;
+}
+.button__box button:first-child{
+  background: $ParpleBG;
+}
+.button__box button:last-child{
+  border: 2px solid $ParpleBG;
+  color: $ParpleBG;
+}
+.m-r{
+  margin-right: 49px;
+}
+.main>h3{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 64px;
+  /* identical to box height, or 107% */
+
+  letter-spacing: -1px;
+  text-align: center;
+  color: $titleColor;
+  margin-bottom: 90px;
+}
+.table__box{
+  display: flex;
+}
+.table__box>div{
+  background: $tableBg;
+  width: 363px;
+  height: 421px;
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+  color: $titleColor;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+}
+.table__box>div:hover{
+  border: 2px solid $ParpleBG;
+}
+.table__box>.activ{
+  width: 363px;
+  height: 502px;
+  color: white;
+  background: $ParpleBG;
+  margin: 0 45px;
+}
+.footer{
+  height: 500px;
+  width: 100%;
+  background: $footerBg;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
